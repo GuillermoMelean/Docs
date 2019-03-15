@@ -1,3 +1,3 @@
 # Documentation
 
-[Publicar um Web Job no Portal Azure](WebJobDeploy.md)
+[Publicar um Web Job no Portal Azure](Docs/WebJobDeploy.md)
