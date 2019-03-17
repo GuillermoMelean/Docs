@@ -1,4 +1,4 @@
-# Tipos Complexos BPS - <i>Add new type to BPMN/BPS</i>
+# Adicionar Tipos de Dados Complexos ao BPS 
 
 ## 1st part - allows the use of the new created type in the forms without errors
 
