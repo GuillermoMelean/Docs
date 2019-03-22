@@ -24,6 +24,8 @@
         | Debug    | Debug  | selected   |
         | Release  | Release  | selected   |
 
+* <i>Right Click</i> no projeto em questão -> <i>Build</i> 
+
 ## 5º - Obter o ficheiro
 * Right Click no projeto -> <i>Open Folder in File Explorer</i>
 * Seguir para a pasta: <i>/bin/Release/</i>
