@@ -1,9 +1,6 @@
-
-
-
-# Publicar um Web Job no Portal Azure
+# <b>Publicar um Web Job no Portal Azure Manualmente</b>
 ## 1º - Clean Geral da Solução
-* Right Click na solução -> <i>Clean Solution</i>.
+* <i>Right Click</i> na solução -> <i>Clean Solution</i>.
 ## 2º - Alterar as <i>connectionstrings</i> do Projeto Models
 * Clean do Projeto.
 * <i>Models</i> -> <i>App.Config</i>. 
@@ -27,16 +24,14 @@
 * <i>Right Click</i> no projeto em questão -> <i>Build</i> 
 
 ## 5º - Obter o ficheiro
-* Right Click no projeto -> <i>Open Folder in File Explorer</i>
+* <i>Right Click</i> no projeto -> <i>Open Folder in File Explorer</i>
 * Seguir para a pasta: <i>/bin/Release/</i>
 * Remover as <i>.dll</i> desnecessárias.
 * Reunir todos os restantes ficheiros e <i>zippar</i>.
 
 ## 6º - Publicar no Azure
-* Entrar no [Portal do Azure](https://portal.azure.com).
-* Selecionar uma <i>app service</i>.
+* Entrar no [<u>Portal do Azure</u>](https://portal.azure.com).
+* Selecionar a <i>app service</i> em questão.
 * Depois seguir <i>Settings</i> -> <i>WebJobs</i> -> <i>Add</i> -> Introduzir um nome, o ficheiro gerado anetiormente e o tipo.
     * Caso seja <i>Continuous</i> ter atenção se é single ou multi instância
-    * Caso seja <i>Triggered</i> e se for Scheduled ter atenção às normas da [CRON Expression](https://go.microsoft.com/fwlink/?LinkId=823235).
-
-<b>Com este tutorial, consegues publicar um web job manualmente no azure.</b>
+    * Caso seja <i>Triggered</i> e se for Scheduled ter atenção às normas da [<u>CRON Expression</u>](https://go.microsoft.com/fwlink/?LinkId=823235).
