@@ -5,8 +5,18 @@
 * Clean do Projeto.
 * <i>SFSDataExtractionWindowsService</i> -> <i>App.Config</i>. 
 * Colocar a apontar para a base de dados correta.
-## 3º - Compilar o projeto do instalador
-* <i>Right Click</i> no projeto em questão -> <i>Build</i>  
+  
+  
+## 3º - Alterar Configuração da Solução e compilar o projeto do instalador
+* Na tab de do Projeto, selecionar <i>Release</i> como configuração da solução.
+    * Caso não exista, clickar em <i>Configuration Manager...</i> -> <i>Active Solution Configuration</i> -><i><New...></i> e criar estas duas novas entradas
+
+        | Name | Copy settings from | Create new project configurations |
+        | ---- | ---- | ----- |
+        | Debug    | Debug  | selected   |
+        | Release  | Release  | selected   |
+
+* <i>Right Click</i> no projeto em questão -> <i>Build</i> 
 
 ## 4º Abrir a máquina através do <i>Remote Desktop Connection</i>
 * Introduzir credenciais de acesso à máquina
