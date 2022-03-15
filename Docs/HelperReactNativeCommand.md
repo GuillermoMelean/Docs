@@ -37,5 +37,5 @@ cd C:\Users\Guilhermo.Ferreira\Documents\Projetos\PT-SW-SifoxMobile-BK | npx rea
 
 ## Clean compilation
 ```sh
-cd android && .\gradlew clean
+cd android && .\gradlew clean & cd ..
 ``` 
