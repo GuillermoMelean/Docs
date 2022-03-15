@@ -25,7 +25,17 @@ emulator -avd Pixel_2_API_30 -writable-system -partition-size 2047 -gpu host
 adb kill-server && adb start-server
 ``` 
 
+## Change path 
+```sh
+cd C:\Users\Guilhermo.Ferreira\Documents\Projetos\PT-SW-SifoxMobile-BK && 
+```
+
 ## Change path and start project
 ```sh
 cd C:\Users\Guilhermo.Ferreira\Documents\Projetos\PT-SW-SifoxMobile-BK | npx react-native start
+``` 
+
+## Clean compilation
+```sh
+cd android && .\gradlew clean
 ``` 
