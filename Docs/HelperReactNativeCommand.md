@@ -27,7 +27,7 @@ adb kill-server && adb start-server
 
 ## Change path 
 ```sh
-cd C:\Users\Guilhermo.Ferreira\Documents\Projetos\PT-SW-SifoxMobile-BK && 
+cd C:\Users\Guilhermo.Ferreira\Documents\Projetos\PT-SW-SifoxMobile-BK
 ```
 
 ## Change path and start project
